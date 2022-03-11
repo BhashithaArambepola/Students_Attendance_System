@@ -22,7 +22,7 @@ public class SplashScreenController {
 
                 try {
                     Stage stage = new Stage();
-                    AnchorPane root = FXMLLoader.load(this.getClass().getResource("/View/LogInForm.fxml"));
+                    AnchorPane root = FXMLLoader.load(this.getClass().getResource("/View/UserHomeForm.fxml"));
                     Scene scene = new Scene(root);
                     stage.setScene(scene);
                     stage.sizeToScene();
